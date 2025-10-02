@@ -3,6 +3,9 @@
 # KELAS : TI.24.A.4
 # MATKUL : PEMROGRAMAN WEB
 
+
+# PRAKTEK LATIHAN
+# 1
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -136,6 +139,8 @@
 </html>
 ```
 
+![gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/Screenshot_20251002_143922.jpg) 
+
 # 4 
 ```html
 nav {
@@ -212,4 +217,8 @@ background: #0B6B3A;
 ```
 
 #Hasil
-![gambar](
+![gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/IMG_20251002_145157.jpg) 
+
+
+# SOAL
+! [gambar](
