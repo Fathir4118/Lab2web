@@ -31,4 +31,4 @@
 </body>
 </html>
 ```
-![gambar]https://github.com/Fathir4118/Lab2web/blob/main/Gambar/Screenshot_20251002_132407.jpg
+![gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/Screenshot_20251002_132407.jpg) 
