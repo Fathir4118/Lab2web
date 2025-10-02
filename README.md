@@ -139,6 +139,7 @@
 </html>
 ```
 
+# Hasil
 ![gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/Screenshot_20251002_143922.jpg) 
 
 # 4 
@@ -219,6 +220,62 @@ background: #0B6B3A;
 #Hasil
 ![gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/IMG_20251002_145157.jpg) 
 
+# 5
+```html
+nav {
+  background: #20A759;
+  color:#fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding:10px 20px;
+}
+
+nav .active, 
+nav a:hover {
+background: #0B6B3A;
+
+}
+
+
+
+/* ID Selector */
+
+#intro {
+background: #418fb1;
+border: 1px solid #099249;
+min-height: 100px;
+padding: 10px;
+}
+
+#intro h1 {
+text-align: left;
+border: 0;
+color: #fff;
+}
+
+/* Class Selector */
+
+.button {
+ padding: 15px 20px;
+background: #bebcbd;
+color: #fff;
+display: inline-block;
+margin: 10px;
+
+text-decoration: none
+}
+
+.btn-primary {
+background: #E42A42;
+}
+```
+# Hasil
+![gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/IMG_20251002_225709.jpg) 
+
 
 # SOAL
-! [gambar](
+! [gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/IMG_20251002_225845.jpg) 
