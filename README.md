@@ -5,7 +5,9 @@
 
 
 # PRAKTEK LATIHAN
+
 # 1
+Pada langkah ini, dibuat sebuah file HTML baru (misalnya: lab2_css_dasar.html) yang berisi struktur dasar dokumen HTML.
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -39,6 +41,10 @@
 ![gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/Screenshot_20251002_132407.jpg) 
 
 # 2
+CSS internal ditulis pada bagian `<head>` menggunakan tag `<style>`.
+CSS ini digunakan untuk mengatur tampilan elemen pada halaman yang sama.
+
+**code**
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -86,12 +92,14 @@
 </html>
 ```
 
-# Hasil
+**Hasil**
 ![gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/IMG_20251002_140100.jpg) 
 
 
 # 3
-
+Inline CSS ditulis langsung pada elemen HTML menggunakan atribut `style`.
+CSS jenis ini hanya berlaku pada elemen yang ditentukan.
+**code**
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -138,11 +146,15 @@
 </body>
 </html>
 ```
-
-# Hasil
+**hasil**
 ![gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/Screenshot_20251002_143922.jpg) 
 
-# 4 
+# 4
+
+Selain internal dan inline, CSS juga bisa ditulis terpisah di file `.css`, lalu dipanggil ke HTML dengan `<link>`.
+**Kode File CSS (`style_eksternal.css`):**
+
+**code**
 ```html
 nav {
 background: #20A759;
@@ -217,10 +229,14 @@ background: #0B6B3A;
 </html>
 ```
 
-#Hasil
+**Hasil**
 ![gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/IMG_20251002_145157.jpg) 
 
 # 5
+Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file 
+
+style_eksternal.css, tambahkan kode berikut.
+**code**
 ```html
 nav {
   background: #20A759;
@@ -273,9 +289,69 @@ text-decoration: none
 background: #E42A42;
 }
 ```
-# Hasil
+**hasil**
 ![gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/IMG_20251002_225709.jpg) 
 
 
 # SOAL
 ! [gambar](https://github.com/Fathir4118/Lab2web/blob/main/Gambar/IMG_20251002_225845.jpg) 
+
+##**1. Eksperimen mengubah properti dan nilai CSS**
+Disini saya mencoba mengubah dan menambah properti pada CSS dengan mengacu pada CSS Cheat Sheet.
+### Contoh Kode:
+
+```css
+nav {
+  background: #20A759;
+  color:#fff;
+  padding: 10px;
+
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding:10px 20px;
+}
+
+nav .active, 
+nav a:hover {
+background: #0B6B3A;
+}
+
+/* ID Selector */
+#intro {
+background: #418fb1;
+border: 1px solid #099249;
+min-height: 100px;
+padding: 10px;
+
+}
+
+#intro h1 {
+text-align: left;
+border: 0;
+color: #fff;
+}
+
+/* Class Selector */
+
+.button {
+ padding: 15px 20px;
+background: #bebcbd;
+color: #fff;
+display: inline-block;
+margin: 10px;
+text-decoration: none;
+
+}
+
+.btn-primary {
+
+background: #E42A42;
+
+}
+```
+
+**hasil**
+![gambar](
